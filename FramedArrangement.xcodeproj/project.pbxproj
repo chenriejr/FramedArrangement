@@ -12,6 +12,7 @@
 		4F9CBA3F1A4A1DF60029E2F7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F9CBA3E1A4A1DF60029E2F7 /* Images.xcassets */; };
 		4F9CBA421A4A1DF60029E2F7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F9CBA401A4A1DF60029E2F7 /* LaunchScreen.xib */; };
 		4F9CBA4E1A4A1DF60029E2F7 /* FramedArrangementTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F9CBA4D1A4A1DF60029E2F7 /* FramedArrangementTests.m */; };
+		AC958C701A8193B900AC1C2A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC958C6F1A8193B900AC1C2A /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,13 +29,15 @@
 		4F9CBA2E1A4A1DF60029E2F7 /* FramedArrangement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FramedArrangement.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F9CBA321A4A1DF60029E2F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4F9CBA331A4A1DF60029E2F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4F9CBA351A4A1DF60029E2F7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		4F9CBA361A4A1DF60029E2F7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4F9CBA351A4A1DF60029E2F7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = FramedArrangement/AppDelegate.h; sourceTree = "<group>"; };
+		4F9CBA361A4A1DF60029E2F7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = FramedArrangement/AppDelegate.m; sourceTree = "<group>"; };
 		4F9CBA3E1A4A1DF60029E2F7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4F9CBA411A4A1DF60029E2F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		4F9CBA471A4A1DF60029E2F7 /* FramedArrangementTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FramedArrangementTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F9CBA4C1A4A1DF60029E2F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4F9CBA4D1A4A1DF60029E2F7 /* FramedArrangementTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FramedArrangementTests.m; sourceTree = "<group>"; };
+		AC958C6E1A8193B900AC1C2A /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AC958C6F1A8193B900AC1C2A /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,10 @@
 		4F9CBA251A4A1DF60029E2F7 = {
 			isa = PBXGroup;
 			children = (
+				4F9CBA361A4A1DF60029E2F7 /* AppDelegate.m */,
+				4F9CBA351A4A1DF60029E2F7 /* AppDelegate.h */,
+				AC958C6E1A8193B900AC1C2A /* ViewController.h */,
+				AC958C6F1A8193B900AC1C2A /* ViewController.m */,
 				4F9CBA301A4A1DF60029E2F7 /* FramedArrangement */,
 				4F9CBA4A1A4A1DF60029E2F7 /* FramedArrangementTests */,
 				4F9CBA2F1A4A1DF60029E2F7 /* Products */,
@@ -76,8 +83,6 @@
 		4F9CBA301A4A1DF60029E2F7 /* FramedArrangement */ = {
 			isa = PBXGroup;
 			children = (
-				4F9CBA351A4A1DF60029E2F7 /* AppDelegate.h */,
-				4F9CBA361A4A1DF60029E2F7 /* AppDelegate.m */,
 				4F9CBA3E1A4A1DF60029E2F7 /* Images.xcassets */,
 				4F9CBA401A4A1DF60029E2F7 /* LaunchScreen.xib */,
 				4F9CBA311A4A1DF60029E2F7 /* Supporting Files */,
@@ -210,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC958C701A8193B900AC1C2A /* ViewController.m in Sources */,
 				4F9CBA371A4A1DF60029E2F7 /* AppDelegate.m in Sources */,
 				4F9CBA341A4A1DF60029E2F7 /* main.m in Sources */,
 			);
@@ -328,6 +334,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FramedArrangement/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -338,6 +345,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FramedArrangement/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
